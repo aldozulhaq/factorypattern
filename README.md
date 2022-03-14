@@ -9,3 +9,7 @@ saat dijalankan
 memilih tiles mana yang ingin digunakan
 
 ![alt text](https://github.com/aldozulhaq/factorypattern/blob/main/Screenshot%202022-03-14%20154506.png?raw=true)
+
+*note
+D = Dynamite
+B = Bomb
