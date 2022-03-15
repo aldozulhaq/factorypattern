@@ -17,7 +17,7 @@ public:
 	}
 	void showCoord()
 	{
-		cout << coord[0] << coord[1];
+		cout << "[" << coord[0] << "," << coord[1] << "]";
 	}
 };
 
@@ -38,7 +38,7 @@ public:
 	}
 	void use()
 	{
-		cout << "Bomb Explode";
+		cout << "Bomb on "; showCoord(); cout << " Explode";
 	}
 };
 
@@ -50,7 +50,7 @@ public:
 	}
 	void use()
 	{
-		cout << "Dynamite Explode";
+		cout << "Dynamite on "; showCoord(); cout << " Explode";
 	}
 };
 
@@ -60,5 +60,8 @@ public:
 	{
 		cout << "R";
 	}
-	void use(){};
+	void use()
+	{
+		cout << "Rubick on "; showCoord(); cout << " Activated";
+	}
 };
