@@ -8,7 +8,7 @@ saat dijalankan
 
 memilih tiles mana yang ingin digunakan
 
-![alt text](github.com/aldozulhaq/factorypattern/blob/main/Screenshot%202022-03-15%20113147.png?raw=true)
+![alt text](https://github.com/aldozulhaq/factorypattern/blob/main/Screenshot%202022-03-15%20113147.png?raw=true)
 
 
 D = Dynamite
