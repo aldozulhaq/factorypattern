@@ -1,4 +1,6 @@
 #include "Board.h"
+#include "Tiles.h"
+#include "TileFactory.h"
 
 int main()
 {
