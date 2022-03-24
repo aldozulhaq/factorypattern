@@ -7,61 +7,32 @@ class Tile {
 private :
 	int coord[2];
 public:
-	virtual ~Tile() = default;
 	virtual void draw() = 0;
 	virtual void use() = 0;
-	void setCoord(int x, int y)
-	{
-		coord[0] = x;
-		coord[1] = y;
-	}
-	void showCoord()
-	{
-		cout << "[" << coord[0] << "," << coord[1] << "]";
-	}
+	void setCoord(int x, int y);
+	void showCoord();
 };
 
 class NormalTile : public Tile {
 public :
-	void draw()
-	{
-		cout << "N";
-	}
-	void use(){};
+	void draw();
+	void use();
 };
 
 class BombTile : public Tile {
 public:
-	void draw()
-	{
-		cout << "B";
-	}
-	void use()
-	{
-		cout << "Bomb on "; showCoord(); cout << " Explode";
-	}
+	void draw();
+	void use();
 };
 
 class DynamiteTile : public Tile {
 public:
-	void draw()
-	{
-		cout << "D";
-	}
-	void use()
-	{
-		cout << "Dynamite on "; showCoord(); cout << " Explode";
-	}
+	void draw();
+	void use();
 };
 
 class RubickTile : public Tile {
 public:
-	void draw()
-	{
-		cout << "R";
-	}
-	void use()
-	{
-		cout << "Rubick on "; showCoord(); cout << " Activated";
-	}
+	void draw();
+	void use();
 };
